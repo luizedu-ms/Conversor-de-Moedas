@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url();
+  background-color: #afe5ed;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.container {
+  background-color: #61a2ad;
+  padding: 10px 10px;
+  width: 500px;
+  height: 400px;
+  margin: 120px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px;  
+}
+.visual_dot{
+  display: inline-flex;
+  width:500px;
+  height: 30px;
+}
+.dot_1{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 429px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.dot_2{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+.dot_3{
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #00e813;
+}
+
+.main{
+  background-color: #f0faf1;
+  text-align: center;
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.page-title {
+  color: #212829;
+  padding-top: 50px;
+  margin: 0 0 2px;
+}
+
+.page-subtitle {
+  color: #212829;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 300px;
+  box-shadow: 10px 10px 10px;
+  background-color:#61a2ad
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+input[type=text]{
+  width: 300px;
+  height: 30px;
+  border: 1px solid #61a2ad;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #61a2ad;
+  border: none;
+  border-radius: 15px;
+}button:active {
+  background-color: #1f97ab;
+}
